@@ -1,0 +1,16 @@
+{
+  "name": "robot-soccer-scoreboard",
+  "version": "1.0.0",
+  "description": "로봇축구 실시간 점수판 서버 (SSE)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
